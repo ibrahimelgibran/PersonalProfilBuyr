@@ -1,5 +1,7 @@
 import React from "react";
 import img2 from "../assets/buyr.png";
+import About from "../components/About";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -16,12 +18,14 @@ const Home = () => {
               Mengantri Saat Belanja.
             </p>
             <div className="mt-5">
-              <button
-                className="btn transition-all duration-500 bg-custom-blue
+              <Link to="">
+                <button
+                  className="btn transition-all duration-500 bg-custom-blue
                py-2 px-4 rounded text-white hover:bg-white hover:text-blue-500"
-              >
-                About me
-              </button>
+                >
+                  About me
+                </button>
+              </Link>
               <button className="btn outline py-1.5 px-6 rounded border-none ml-5 text-white ">
                 Prestasi
               </button>
