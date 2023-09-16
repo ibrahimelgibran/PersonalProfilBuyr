@@ -3,9 +3,12 @@ import Services from "./Services";
 
 const About = () => {
   const skills = [
-    { name: "WEB DEVELOPMENT", image: "/src/assets/icons/web.png" },
-    { name: "MOBILE DEVELOPMENT", image: "/src/assets/icons/android.png" },
-    { name: "UI & UX DESIGNING", image: "/src/assets/icons/uiux.png" },
+    { name: "WEB DEVELOPMENT", image: "/../../src/assets/icons/web.png" },
+    {
+      name: "MOBILE DEVELOPMENT",
+      image: "/../../src/assets/icons/android.png",
+    },
+    { name: "UI & UX DESIGNING", image: "/../../src/assets/icons/uiux.png" },
   ];
   return (
     <div className="md:px-10 px-7 sm:-mt-24" id="about">
