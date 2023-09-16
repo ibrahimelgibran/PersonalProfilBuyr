@@ -6,7 +6,7 @@ const Projects = () => {
       title: "JUARA 2 ",
       description:
         "Award atas COMPOTITION HACKTHON diselenggarakan oleh ABP INCUBATOR dan PT. PRAISINDO TEKNOLOGI.",
-      photo: "/src/assets/projects/juara2.png",
+      photo: "/juara2.png",
     },
   ];
   return (
