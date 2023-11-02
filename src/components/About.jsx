@@ -3,7 +3,7 @@ import Services from "./Services";
 
 const About = () => {
   const skills = [
-    { name: "WEB DEVELOPMENT", image: "/src/assets/icons/web.png" },
+    { name: "WEB DEVELOPMENT", image: "/src/assets/icons/update .png" },
     { name: "MOBILE DEVELOPMENT", image: "/src/assets/icons/android.png" },
     { name: "UI & UX DESIGNING", image: "/src/assets/icons/uiux.png" },
   ];
