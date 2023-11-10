@@ -1,7 +1,4 @@
 import React from "react";
-import facebook from "../assets/socials/facebook.png";
-import instagram from "../assets/socials/instagram.png";
-import email from "../assets/socials/sms.png";
 
 const Footer = () => {
   return (

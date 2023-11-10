@@ -1,8 +1,8 @@
 import React from "react";
 import Services from "./Services";
-import update from "/src/assets/icons/update.png";
-import android from "/src/assets/icons/android.png";
-import uiux from "/src/assets/icons/uiux.png";
+import update from "../assets/icons/update.png";
+import android from "../assets/icons/android.png";
+import uiux from "../assets/icons/uiux.png";
 const About = () => {
   const skills = [
     { name: "WEB DEVELOPMENT", image: update },
