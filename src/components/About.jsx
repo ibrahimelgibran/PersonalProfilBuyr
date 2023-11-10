@@ -1,11 +1,13 @@
 import React from "react";
 import Services from "./Services";
-
+import update from "/src/assets/icons/update.png";
+import android from "/src/assets/icons/android.png";
+import uiux from "/src/assets/icons/uiux.png";
 const About = () => {
   const skills = [
-    { name: "WEB DEVELOPMENT", image: "/src/assets/icons/update .png" },
-    { name: "MOBILE DEVELOPMENT", image: "/src/assets/icons/android.png" },
-    { name: "UI & UX DESIGNING", image: "/src/assets/icons/uiux.png" },
+    { name: "WEB DEVELOPMENT", image: update },
+    { name: "MOBILE DEVELOPMENT", image: android },
+    { name: "UI & UX DESIGNING", image: uiux },
   ];
   return (
     <div className="md:px-10 px-7 sm:-mt-24" id="about">

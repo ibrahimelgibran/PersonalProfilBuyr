@@ -1,4 +1,5 @@
 import React from "react";
+import juara2 from "../assets/projects/juara2.png";
 
 const Projects = () => {
   const projects = [
@@ -6,7 +7,7 @@ const Projects = () => {
       title: "JUARA 2 ",
       description:
         "Award atas COMPOTITION HACKTHON diselenggarakan oleh ABP INCUBATOR dan PT. PRAISINDO TEKNOLOGI.",
-      photo: "/src/assets/projects/juara2.png",
+      photo: juara2,
     },
   ];
   return (
