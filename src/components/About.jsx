@@ -1,11 +1,11 @@
 import React from "react";
 import Services from "./Services";
-import update from "../assets/icons/update.png";
+import web from "../assets/icons/web.png";
 import android from "../assets/icons/android.png";
 import uiux from "../assets/icons/uiux.png";
 const About = () => {
   const skills = [
-    { name: "WEB DEVELOPMENT", image: update },
+    { name: "WEB DEVELOPMENT", image: web },
     { name: "MOBILE DEVELOPMENT", image: android },
     { name: "UI & UX DESIGNING", image: uiux },
   ];
