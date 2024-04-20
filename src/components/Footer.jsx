@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="hidden sm:block">APLIKASI PEMBAYARAN</p>
         <p className="hidden sm:block">PILIH | PINDAI | BUYR</p>
         <p className="hidden sm:block">GA PAKAI NGANTRI</p>
-        <p className="hidden sm:block">Designed by @BUYR</p>
+        <p className="hidden sm:block"> Designed by @BUYR</p>
       </div>
     </div>
   );

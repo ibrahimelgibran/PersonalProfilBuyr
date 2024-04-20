@@ -6,8 +6,8 @@ import uiux from "../assets/icons/uiux.png";
 const About = () => {
   const skills = [
     { name: "WEB DEVELOPMENT", image: web },
-    { name: "MOBILE DEVELOPMENT", image: android },
     { name: "UI & UX DESIGNING", image: uiux },
+    { name: "MOBILE DEVELOPMENT", image: android },
   ];
   return (
     <div className="md:px-10 px-7 sm:-mt-24" id="about">
